@@ -1,1038 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>CrestWave</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Empowering Education and Sustainability" name="keywords">
-    <meta content="Building a Peaceful and Modern Bangladesh" name="description">
-    <meta property="og:title" content="A Bright, Peaceful, and Modern Bangladesh">
-    <meta property="og:description" content="Building a Peaceful and Modern Bangladesh">
-    <meta property="og:image" content="https://mjahmad1.github.io/cwbd/img/2/65.png">
-    <meta property="og:url" content="https://mjahmad1.github.io/cwbd/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mj-ahmad</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CrestWave.styles.css" asp-append-version="true" />
 
+       <link rel="shortcut icon" href="https://mjahmad1.github.io/cwbd/img/cwld.png" type="image/x-icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://mjahmad1.github.io/cwbd/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://mjahmad1.github.io/cwbd/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+    <link href="https://mjahmad1.github.io/Reliable-Hand/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/Reliable-Hand/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://mjahmad1.github.io/cwbd/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/Reliable-Hand/css/style.css" rel="stylesheet">
+
+    <!-- ser -->
+    <link href="https://mjahmad1.github.io/mjp/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/mjp/css/style.css" rel="stylesheet">
+
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="https://mjahmad1.github.io/cwbd/css/style.css" rel="stylesheet">
-    <meta name="google-site-verification" content="Da4Wf0bMjZq9uJs6QDCaYdj5rUD_3Obl4o2yoIoeI3s" />
+    <link href="https://mjahmad1.github.io/Reliable-Hand/l/css/style.css" rel="stylesheet">
+    <link href="https://mjahmad1.github.io/Reliable-Hand/css/pt5.css" rel="stylesheet">
+
 </head>
 <body>
-
-    <!-- Spinner Start -->
-    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" role="status"></div>
-    </div>
-    <!-- Spinner End -->
-    <!-- Navbar start -->
-    <div class="container-fluid fixed-top px-0">
-        <div class="container px-0">
-            <div class="topbar">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-8">
-                        <div class="topbar-info d-flex flex-wrap">
-                            <a href="#" class="text-light me-4"><i class="fas fa-envelope text-white me-2"></i>admin@crestwavebd.onmicrosoft.com</a>
-                            <a href="#" class="text-light"><i class="fas fa-phone-alt text-white me-2"></i>+880 1306643884</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="topbar-icon d-flex align-items-center justify-content-end">
-                            <a href="https://www.facebook.com/MdJaforAhmad1989" class="btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://twitter.com/QuranerFariwala" class="btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="https://orcid.org/0009-0008-8560-0756" class="btn-square text-white me-2"><i class="fab fa-orcid"></i></a>
-                            <a href="https://www.github.con/mjahmad1/" class="btn-square text-white me-2"><i class="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/jafor-ahmod/" class="btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+        <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 display-5"><span class="text-primary">Faithful</span>PARTNER</h1>
+            </a>           
+        </nav>
+<div class="container-fluid bg-offer my-5 py-5">
+    <div class="container py-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-7 text-center">
+                <div class="section-title position-relative text-center mx-auto mb-4 pb-3" style="max-width: 600px;">
+                    <h1 class="display-4 text-uppercase text-white">Help me.</h1>
                 </div>
+                <h3 class="text-white">Your Support Can Help Me Regain My Health </h3>
+                <p></p>
+                <div class="btn btn-primary border-inner py-3 px-5 me-3">Support now</div>
+                <p></p>
+                <p class="text-white">Dear Brothers and Sisters! With a heavy heart, I share that I am currently suffering from a severe illness and have been living a solitary and difficult life for a long time. Both physically and mentally, I am shattered, and in this challenging time, I need your support.</p>
             </div>
-            <nav class="navbar navbar-light bg-light navbar-expand-xl">
-                <a href="index.html" class="navbar-brand ms-3">
-                    <h1 class="text-primary display-5">CrestWave</h1>
-                </a>
-                <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars text-primary"></span>
-                </button>
-                <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="causes.html" class="nav-item nav-link">Causes</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="blog.html" class="dropdown-item">Blog</a>
-                                <a href="gallery.html" class="dropdown-item">Gallery</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
-                        <a href="pay.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">Donate Now</a>
-                    </div>
-                </div>
-            </nav>
         </div>
     </div>
-    <!-- Navbar End -->
-    <!-- Carousel Start -->
-    <div class="container-fluid carousel-header vh-100 px-0">
-        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img src="img/192000/3.png" style="width: 1920px; height: 1080px;">
-                    <div class="carousel-caption">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h2 class="display-1 text-capitalize text-white mb-4">Building a Peaceful and Modern Bangladesh</h2>
-                            <p class="mb-5 fs-5"><b>Crest-Wave</b> is dedicated to fostering a collaborative spirit among the people of Bangladesh</p>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="#">Join With Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/5/11.png" style="width: 1920px; height: 1080px;">
-                    <div class="carousel-caption">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h2 class="display-1 text-capitalize text-white mb-4">Uniting for a Brighter Future</h2>
-                            <p class="mb-5 fs-5">By working together, we aim to build a nation that is bright, peaceful, and modern</p>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="volun.html">Join With Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/5/9.png" style="width: 1920px; height: 1080px;">
-                    <div class="carousel-caption">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h2 class="display-1 text-capitalize text-white mb-4">A Bright, Peaceful, and Modern Bangladesh</h2>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="#">Join With Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+</div>
+<div class="container">
+    <p><b>For the first time in my life, I am asking for financial assistance for myself. The burden of debt and the constant inhuman words from some people have left me feeling helpless. If you could support me by donating any amount or by purchasing a product or service from me, it might help me regain a healthy and bright life.</b></p>
+    <p><b>Your smallest contribution would be a huge blessing for me. Once I recover, I promise to deliver your service with the utmost efficiency and help you achieve your institutional success.</b></p>
+</div>
+<!-- Products Start -->
+<div class="container-fluid about py-5">
+    <div class="container">
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+            <h2 class="text-primary font-secondary">About Me</h2>
+            <h1 class="display-4 text-uppercase">MD JAFOR AHMAD</h1>
+            <h4 class="text-black font-secondary">Founder at Crest-Wave</h4>
+            <span>27 Purana Paltan (1st Floor)</span><br>
+            <span>Dhaka-1000, BD</span>
         </div>
-    </div>
-    <!-- Carousel End -->
-    <!-- About Start -->
-    <div class="container-fluid about  py-5">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-xl-5">
-                    <div class="h-100">
-                        <img src="https://mjahmad1.github.io/cwbd/img/2/65.png" class="img-fluid w-100 h-100" alt="Image">
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <h1 class="mb-4">Building a Bright, Peaceful, and Modern Bangladesh with People Working Together</h1>
-                    <p class="fs-5 mb-4">
-                        Protecting Freedom with the Power of Technology, Crest-Wave's Commitment! we need to build a bright, peaceful, modern, educated, cooperative, and compassionate Bangladesh.
-                    </p>
-                    <div class="tab-class bg-secondary p-4">
-                        <ul class="nav d-flex mb-2">
-                            <li class="nav-item mb-3">
-                                <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
-                                    <span class="text-dark" style="width: 150px;">About</span>
-                                </a>
-                            </li>
-                            <li class="nav-item mb-3">
-                                <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">
-                                    <span class="text-dark" style="width: 150px;">Mission</span>
-                                </a>
-                            </li>
-                            <li class="nav-item mb-3">
-                                <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">
-                                    <span class="text-dark" style="width: 150px;">Vision</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div id="tab-1" class="tab-pane fade show p-0 active">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3">Crest-Wave</h5>
-                                                <p class="mb-4">
-                                                    Through Crest-Wave, we aim to pay deep respect to the heroes who sacrificed their lives for the country's independence.Our goal is to make advanced technology accessible and simplify the use of all powerful Microsoft tools for students.
-                                                </p>
-                                                <div class="d-flex align-items-center justify-content-start">
-                                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tab-2" class="tab-pane fade show p-0">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3">Crest-Wave's</h5>
-                                                <p class="mb-4">
-                                                    mission is to empower and ensure the security of Bangladeshi students through advanced technology. We leverage the world's highest quality management systems and the powerful tools of Microsoft to make students' activities more effective and secure.
-                                                </p>
-                                                <div class="d-flex align-items-center justify-content-start">
-                                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="tab-3" class="tab-pane fade show p-0">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="d-flex">
-                                            <div class="text-start my-auto">
-                                                <h5 class="text-uppercase mb-3">Crest-Wave</h5>
-                                                <p class="mb-4">
-                                                    envisions a society where students can achieve their full potential through technological proficiency and security.We believe that by empowering students and promoting their efforts and successes globally,we can build a better and more prosperous future.
-                                                </p>
-                                                <div class="d-flex align-items-center justify-content-start">
-                                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item bg-dark text-white border-inner p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/m.jpg" style="width: 120px; height: 120px;">
+                    <div class="ps-3">
+                        <p class="mb-0">Nationality: <b>Bangladeshi</b></p>
+                        <p class="mb-0">Date of Birth:<b> 10 NOV 1989</b></p>
+                        <p class="mb-0">Passport No.<b> A02019678</b></p>
+                        <p class="mb-0">NID No.<b> 3734108768</b></p>
+                        <p class="mb-0">TIN No.<b> 425092691933</b></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
-    <!-- About Start -->
-    <div class="container-fluid about  py-5">
-        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-            <p><b>Crest-Wave is</b></p>
-            <h1 class="mb-4">proud to be a part of Stripe Climate</h1>
-            <img src="https://mjahmad1.github.io/cwbd/img/g1.gif" alt="Description of GIF" width="200" height="200">
-        </div>
-        <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="https://climate.stripe.com/ArsPAE">Stripe Climate</a>
-        </div>
-        </div>
-        <!-- About End -->
-
-
-
-    
-        <!-- Services Start -->
-        <div class="container-fluid service py-5 bg-light">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h1 class="mb-0">E-COMMERCE TAMPLATE</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="img/den.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">DentCare – Dental Clinic Website Template</a>
-                            </div>
-                        </div>
-                        <a href="https://crestwavebd.github.io/mj/dental/index.html" class="my-4">Live Preview</a>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="img/ho.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Hotelier – Hotel Template</a>
-                            </div>
-                        </div>
-                        <a href="https://crestwavebd.github.io/mj/royal/index.html" class="my-4">Live Preview</a>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="img/he.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">HairCut – Hair Salon Template</a>
-                            </div>
-                        </div>
-                        <a href="https://crestwavebd.github.io/mj/hair/index.html" class="my-4">Live Preview</a>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="img/ba.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Burger King – Food Website Template</a>
-                            </div>
-                        </div>
-                        <a href="https://crestwavebd.github.io/mj/food/index.html" class="my-4">Live Preview</a>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="img/co.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Coffee Shop Template</a>
-                            </div>
-                        </div>
-                        <a href="https://crestwavebd.github.io/mj/coffee/index.html" class="my-4">Live Preview</a>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/j2.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Wildlife Conservation</a>
-                            </div>
-                        </div>
-                        <p class="my-4">Wildlife is an essential part of our environment. Your donation will support wildlife conservation projects, helping to protect biodiversity</p>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/j3.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Pollution Control and Air Quality Improvement</a>
-                            </div>
-                        </div>
-                        <p class="my-4">Air pollution is harmful to our health. Your support will fund pollution control and air quality improvement projects</p>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="service-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/j4.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="service-link">
-                                <a href="#" class="h4 mb-0">Sustainable Agriculture and Food Security</a>
-                            </div>
-                        </div>
-                        <p class="my-4">Sustainable agriculture helps ensure food security. Your donation will support sustainable agriculture projects, promoting eco-friendly farming practices</p>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
+</div>
+<!-- Testimonial End -->
+<!-- Offer Start -->
+<div class="container py-5">
+    <div class="row gx-5 justify-content-center">
+        <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://www.github.com/mjahmad1"><i class="fab fa-github fw-normal"></i></a>
+        <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://www.facebook.com/mdjaforahmad10.11.1989/"><i class="fab fa-facebook-f fw-normal"></i></a>
+        <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="https://www.linkedin.com/in/jafor-ahmad/"><i class="fab fa-linkedin-in fw-normal"></i></a>
+        <p></p>
+    </div>
+</div>
+<!-- Offer Start -->
+<div class="container-fluid bg-offer my-5 py-5">
+    <div class="row gx-5 justify-content-center">
+        <div class="col-lg-7 text-center">
+            <div class="section-title position-relative text-center mx-auto mb-4 pb-3" style="max-width: 600px;">
+                <h4 class="text-primary font-secondary">My goal is to make education an indispensable part of evry child's life, enabling them to pursue their dreams and aspirations.</h4>
             </div>
         </div>
-        <!-- Services End -->
-        <!-- Donation Start -->
-        <div class="container-fluid donation py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h1 class="mb-0">Your money will save our life</h1>
-                    <p>In these challenging times, your support is crucial. Your contribution can make a significant difference in the lives of those affected by recent emergencies.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4">
-                        <div class="donation-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/ja1.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="donation-content d-flex flex-column">
-                                <h5 class="text-uppercase text-primary mb-4">Emergency</h5>
-                                <a href="#" class="btn-hover-color display-6 text-white">Supporting Flood-Affected Families</a>
-                                <p class="text-white mb-4">The recent floods have devastated many families in Bangladesh.</p>
-                                <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
+    </div>
+</div>
+<!-- Offer End -->
+<!-- Products Start -->
+<div class="container-fluid about py-5">
+    <div class="container">
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase border-inner p-4 mb-5">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" data-bs-toggle="pill" href="#tab-1">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-2">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-3">Licenses</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="https://mjahmad1.github.io/cwbd/img/wadk.png" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Windows ADK</h5>
+                                    <span>As a dedicated user of the Windows Assessment and Deployment Kit (Windows ADK),</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="donation-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/ja2.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="donation-content d-flex flex-column">
-                                <a href="#" class="btn-hover-color display-6 text-white">Providing Medical Aid</a>
-                                <p class="text-white mb-4">Many people are in urgent need of medical assistance due to the recent floods and other emergencies.</p>
-                                <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/ve.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Full-Stack Development</h5>
+                                    <span> By integrating cutting-edge technologies and best practices, I help clients achieve their digital...</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="donation-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/ja3.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="donation-content d-flex flex-column">
-                                <a href="#" class="btn-hover-color display-6 text-white">Ensuring Food Security</a>
-                                <p class="text-white mb-4">Floods have disrupted food supplies, leaving many without access to basic necessities.</p>
-                                <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/sour.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Secure Payment Solutions</h5>
+                                    <span>As a developer specializing in VISA and Stripe integrations, I am committed to providing secure, seamless...</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-lg-4">
-                            <div class="donation-item">
-                                <img src="https://mjahmad1.github.io/cwbd/img/ja4.jpg" class="img-fluid w-100" alt="Image">
-                                <div class="donation-content d-flex flex-column">
-                                    <a href="#" class="btn-hover-color display-6 text-white">Rebuilding Homes and Infrastructure</a>
-                                    <p class="text-white mb-4">The floods have caused extensive damage to homes and infrastructure.</p>
-                                    <div class="donation-btn d-flex align-items-center justify-content-start">
-                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/api.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">API integration</h5>
+                                    <span>As a seasoned developer specializing in VISA and Stripe API integrations, I can help you achieve just that!</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="donation-item">
-                                <img src="https://mjahmad1.github.io/cwbd/img/ja5.jpg" class="img-fluid w-100" alt="Image">
-                                <div class="donation-content d-flex flex-column">
-                                    <a href="#" class="btn-hover-color display-6 text-white">Supporting Education Continuity</a>
-                                    <p class="text-white mb-4">Many schools have been affected by the floods,disrupting the education of countless children.</p>
-                                    <div class="donation-btn d-flex align-items-center justify-content-start">
-                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/msf.png" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">IT project and program management</h5>
+                                    <span>As an experienced web developer specializing in IT project and program management,</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="donation-item">
-                                <img src="https://mjahmad1.github.io/cwbd/img/ja6.jpg" class="img-fluid w-100" alt="Image">
-                                <div class="donation-content d-flex flex-column">
-                                    <a href="#" class="btn-hover-color display-6 text-white">Promoting Mental Health and Well-being</a>
-                                    <p class="text-white mb-4">The trauma of recent events has taken a toll on the mental health of many individuals.</p>
-                                    <div class="donation-btn d-flex align-items-center justify-content-start">
-                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Donate</a>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/hc.jpg" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">All Donation</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Donation End -->
-            <!-- Counter Start -->
-            <div class="container-fluid counter py-5" style="background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(img/volunteers-bg.jpg) center center; background-size: cover;">
-                <div class="container py-5">
-                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                        <h5 class="text-uppercase text-primary">Achievements</h5>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="counter-item text-center border p-5">
-                                <i class="fas fa-thumbs-up fa-4x text-white"></i>
-                                <h3 class="text-white my-4">Beavers Saved</h3>
-                                <div class="counter-counting">
-                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">3600</span>
-                                    <span class="h1 fw-bold text-primary">+</span>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Responsive Web Design</h5>
+                                    <span>As a web designer with expertise in HTML, CSS, JavaScript, PHP, and SQL, I can help you achieve a dynamic...</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="counter-item text-center border p-5">
-                                <i class="fas fa-file-invoice-dollar fa-4x text-white"></i>
-                                <h3 class="text-white my-4">Funds Collected</h3>
-                                <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
-                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">513</span>
-                                    <span class="h1 fw-bold text-primary">$</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="counter-item text-center border p-5">
-                                <i class="fas fa-user fa-4x text-white"></i>
-                                <h3 class="text-white my-4">Volunteer</h3>
-                                <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
-                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">713</span>
-                                    <span class="h1 fw-bold text-primary">+</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="counter-item text-center border p-5">
-                                <i class="fas fa-heart fa-4x text-white"></i>
-                                <h3 class="text-white my-4">Days of Help</h3>
-                                <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
-                                    <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">487</span>
-                                    <span class="h1 fw-bold text-primary">+</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="volunteer.html">Join With Us</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Counter End -->
-            <!-- Causes Start -->
-            <div class="container-fluid causes py-5">
-                <div class="container py-5">
-                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                        <h1 class="mb-4">Help Today, Because Tomorrow You May Need Help</h1>
-                        <p class="mb-0">
-                            Join us in supporting the countless families and communities affected by sudden floods. Your contribution can make a significant difference in rebuilding lives and creating a well-organized, peaceful Bangladesh.
-                        </p>
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/ad.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Cloud solutions</h5>
+                                    <span>Explore data analysis and data visualization solutions that help you..</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/aaa.png" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Social Marketing </h5>
+                                    <span>Everything you need to grow fast on social media, including all..</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/cas.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Custom Web Design</h5>
+                                    <span>Tailored designs that reflect your brand and meet your business needs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/mspbi.png" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Real-Time Analytics</h5>
+                                    <span>Gain insights into your transactions with real-time data and reporting.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/msf.png" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Advanced management</h5>
+                                    <span>I can help you streamline your operations and enhance productivity.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/payment.jpg" alt="" style="width: 150px; height: 85px;">
+                                </div>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">payment solutions</h5>
+                                    <span>We offers a comprehensive suite of payment solutions designed to help businesses..</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf1.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $170000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $17000</small>
-                                    </div>
+                </div>
+                <div id="tab-3" class="tab-pane fade show p-0">
+                    <div class="row g-3">
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/mss.svg" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="17" aria-valuemin="0" aria-valuemax="100">
-                                        <span>17%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Rebuild and Restore: Support Flood Victims</h4>
-                                    <p class="mb-4">The recent floods have left many families homeless and communities devastated. Your donation will help provide essential supplies, shelter, and support to those in need</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Microsoft 365 Business Standard</h5>
+                                    <span>Stay ahead with the latest Microsoft technologies and solutions</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf2.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $300000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $9000</small>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/msf.png" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100">
-                                        <span>3%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Empower a New Generation of Freedom Fighters</h4>
-                                    <p class="mb-4">Support the new wave of freedom fighters in Bangladesh. Your contribution will help empower students with the tools and resources they need to protect ..</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Microsoft Fabric</h5>
+                                    <span>We Provide top-notch services with enhanced support and resources</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf3.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $60000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $14000</small>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/mspbi.png" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100">
-                                        <span>22%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Stand with Us: Aid for Flood-Affected Families</h4>
-                                    <p class="mb-4">Stand with us in providing immediate relief to families affected by the sudden floods. Your support will ensure they receive the necessary aid to recover</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Power BI Pro</h5>
+                                    <span>Stay ahead with  Power BI Pro for powerful data analytics and visualization.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf4.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $100000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $4000</small>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/ma.jpg" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">
-                                        <span>4%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Building a Resilient Bangladesh</h4>
-                                    <p class="mb-4">Help us build a resilient Bangladesh where communities can withstand and recover from natural disasters. Your donation will go towards disaster preparedness and recovery efforts, ensuring a safer future for all.</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">AI Cloud Partner</h5>
+                                    <span>we have exclusive access to cutting-edge tools, resources, and support from Microsoft</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf5.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $30000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $8000</small>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/st.jpg" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100">
-                                        <span>27%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Together for a Peaceful Bangladesh</h4>
-                                    <p class="mb-4">Join us in our mission to create a peaceful and well-organized Bangladesh. Your support will help us provide education, resources, and aid to those in need,</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Stripe & VISA API Integrated</h5>
+                                    <span>Experience faster and more reliable payment solutions tailored to your needs.</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf6.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $20000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $2000</small>
-                                    </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex h-100">
+                                <div class="flex-shrink-0">
+                                    <img class="img-fluid" src="http://mjahmad1.github.io/cwbd/img/co.jpg" alt="" style="width: 150px; height: 85px;">
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                        <span>10%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Hope After the Flood: Your Help Matters</h4>
-                                    <p class="mb-4">The aftermath of the floods has left many in despair. Your contribution can bring hope and relief to those affected, helping them rebuild their lives and communities.</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf7.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $35000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $70000</small>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        <span>20%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">Support Today, Secure Tomorrow</h4>
-                                    <p class="mb-4">By supporting our efforts today, you are securing a better tomorrow for countless families and communities.Your donation will provide immediate relief</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="causes-item">
-                                <div class="causes-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/jf8.jpg" class="img-fluid w-100" alt="Image">
-                                    <div class="causes-link pb-2 px-3">
-                                        <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $40000</small>
-                                        <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $4000</small>
-                                    </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                        <span>10%</span>
-                                    </div>
-                                </div>
-                                <div class="causes-content p-4">
-                                    <h4 class="mb-3">A Brighter Future for All</h4>
-                                    <p class="mb-4"> Help us create a brighter future for all by supporting our efforts to aid flood-affected families and empower students. Your contribution will make a lasting impact on the lives of many.</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="pay.html">Support now</a>
+                                <div class="d-flex flex-column justify-content-center text-start bg-secondary border-inner px-4">
+                                    <h5 class="text-uppercase">Microsoft Partner Network</h5>
+                                    <span>we are a proud member of the Microsoft Partner Network Access!</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Events Start -->
-            <div class="container-fluid event py-5">
-                <div class="container py-5">
-                    <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-                        <h1 class="mb-0">To enjoy the fruits of our hard-earned freedom, we need to build a bright, peaceful, modern, educated, cooperative, and compassionate Bangladesh.</h1>
-                    </div>
-                    <div class="event-carousel owl-carousel">
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo1.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Empowering Education for All</h4>
-                                <p class="mb-4">Education is the foundation of a prosperous nation. Your contribution will help provide quality education to underprivileged children, ensuring they have the tools and resources to succeed.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo2.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Supporting Flood-Affected Families</h4>
-                                <p class="mb-4">The recent floods have devastated many families. Your donation will provide essential supplies, shelter, and support to help them rebuild their lives and communities.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo3.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Promoting Technological Advancement</h4>
-                                <p class="mb-4">In a modern world, technological proficiency is crucial. Your support will help equip students with advanced tools and resources, empowering them to excel in their studies and future careers.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo4.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Fostering Community Cooperation</h4>
-                                <p class="mb-4">A strong community is built on cooperation and mutual support. Your contribution will help organize community-building activities and initiatives that promote unity and collaboration.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo5.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Ensuring Health and Well-being</h4>
-                                <p class="mb-4">Health is a fundamental right. Your donation will support healthcare initiatives, providing medical aid and resources to those in need, ensuring a healthier and happier community.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo6.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Honoring Our Heroes</h4>
-                                <p class="mb-4">Our freedom is the result of countless sacrifices. Your support will help preserve the legacy of our heroes, educating the next generation about their contributions and inspiring them to uphold <br>these values.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo7.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Building Disaster Resilience</h4>
-                                <p class="mb-4">Natural disasters are inevitable, but their impact can be mitigated. Your contribution will go towards disaster preparedness and recovery efforts, ensuring communities can withstand and recover from such events..</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo8.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Promoting Peace and Harmony</h4>
-                                <p class="mb-4">A peaceful society is essential for progress. Your support will help promote peace and harmony through various initiatives, fostering a safe and supportive environment for all.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo9.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Enhancing Social Welfare</h4>
-                                <p class="mb-4">Social welfare programs are vital for the well-being of the community. Your donation will support initiatives aimed at improving the quality of life for the underprivileged <br>and marginalized.</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-                        <div class="event-item">
-                            <img src="https://mjahmad1.github.io/cwbd/img/jo10.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="event-content p-4">
-                                <h4 class="mb-4">Encouraging Environmental Sustainability</h4>
-                                <p class="mb-4">
-                                    A sustainable environment is crucial for our future. Your contribution will support environmental conservation efforts, ensuring a greener and healthier planet for future generations.
-                                </p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="read.html">Read More</a>
-                            </div>
-                        </div>
-
-                    </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+<!-- Products Start -->
+<div class="container-fluid about py-5">
+    <div class="container">
+        <div class="section-title position-relative text-center mx-auto mb-4 pb-3">
+            <h2 class="text-uppercase">Unlock the Power of Web Development with Me!</h2>
+            <span>
+                As a Full-Stack Developer with valid credentials including Microsoft Partner ID, Seller ID, and Publisher ID, and a proud member of the Insider community as a Stripe and VISA developer, I am excited to offer a comprehensive range of web development services tailored to meet your business needs.
+            </span>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+<!-- Service Start -->
+<div class="container-fluid service position-relative px-5 mt-5" style="margin-bottom: 135px;">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">Web Development</h4>
+                    <p>Creating responsive and dynamic websites using HTML, CSS, JS, PHP.</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
                 </div>
             </div>
-            <!-- Events End -->
-            <!-- Blog Start -->
-            <div class="container-fluid blog py-5 mb-5">
-                <div class="container py-5">
-                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                        <h1 class="mb-0">Building a Bright, Peaceful, and Modern Bangladesh with People Working Together</h1>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/b2.jpg" class="img-fluid w-100" alt="">
-                                    <div class="blog-info">
-                                        <span><i class="fa fa-clock"></i> Aug 27.2024</span>
-                                        <div class="d-flex">
-                                            <span class="me-38700"> 38700 <i class="fa fa-heart"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="search-icon">
-                                        <a href="img/b2.jpg" data-lightbox="Blog-1" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-dark border p-4 ">
-                                    <h4 class="mb-4">Dr. Muhammad Yunus: An Inspiration for Students</h4>
-                                    <p class="mb-4"><b>Dr. Muhammad Yunus,</b> Nobel Prize winner and founder of Grameen Bank, is a symbol of inspiration for the students of our country.As he once said, "I’m encouraging young people to become ... </p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/b3.jpg" class="img-fluid w-100" alt="">
-                                    <div class="blog-info">
-                                        <span><i class="fa fa-clock"></i> Aug 27.2024</span>
-                                        <div class="d-flex">
-                                            <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
-                                            <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="search-icon">
-                                        <a href="img/b3.jpg" data-lightbox="Blog-2" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-dark border p-4 ">
-                                    <h4 class="mb-4">Bangladesh on the Global Stage</h4>
-                                    <p class="mb-4">Our students, innovators, and leaders are shining brightly, showcasing the potential and promise of our nation. Together, we can achieve great things and build a brighter future for al... </p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/b4.jpg" class="img-fluid w-100" alt="">
-                                    <div class="blog-info">
-                                        <span><i class="fa fa-clock"></i> Aug 27.2024</span>
-                                        <div class="d-flex">
-                                            <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
-                                            <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="search-icon">
-                                        <a href="img/b4.jpg" data-lightbox="Blog-3" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-dark border p-4 ">
-                                    <h4 class="mb-4">A Nation of Bright Minds and Big Dreams</h4>
-                                    <p class="mb-4">Bangladesh is a country filled with talented individuals and ambitious dreams. Our students, innovators, and leaders are making significant contributions on the global stage, showcasing the...</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-3">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="https://mjahmad1.github.io/cwbd/img/b5.jpg" class="img-fluid w-100" alt="">
-                                    <div class="blog-info">
-                                        <span><i class="fa fa-clock"></i> Aug 27.2024</span>
-                                        <div class="d-flex">
-                                            <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
-                                            <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="search-icon">
-                                        <a href="img/b5.jpg" data-lightbox="Blog-4" class="my-auto"><i class="fas fa-search-plus btn-primary text-white p-3"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-dark border p-4 ">
-                                    <h4 class="mb-4">A Beacon of Innovation and Excellence</h4>
-                                    <p class="mb-4">Bangladesh is a land where dreams take flight and brilliance shines through. Our students, innovators, and leaders are not just participants but pioneers on the global stage. Their relentless pursuit...</p>
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">Payment Integration</h4>
+                    <p>Implementing secure and efficient payment solutions with Stripe and VISA</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
                 </div>
             </div>
-            <!-- Blog End -->
-            <!-- Volunteers Start -->
-            <div class="container-fluid volunteer py-5 mt-5">
-                <div class="container py-5">
-                    <div class="row g-5">
-                        <div class="col-lg-7">
-                            <h5 class="text-uppercase text-primary">Become a Volunteer?</h5>
-                            <h1 class="mb-4">Empowering Minds, One Click at a Time</h1>
-                            <img src="https://mjahmad1.github.io/cwbd/img/8/3.png" class="img-fluid w-100" alt="">
-                            <h4>Join your hand with us for a better life and beautiful future.</h4>
-                            <p class="mb-4">Join us in our mission to create a brighter future. By becoming a volunteer, you can make a significant impact on the lives of many. Your time, skills, and passion can help empower communities and bring about positive change.</p>
-                            <p class="text-dark"><i class=" fa fa-check text-primary me-2"></i> We are friendly to each other.</p>
-                            <p class="text-dark"><i class=" fa fa-check text-primary me-2"></i> Help underprivileged children achieve their dreams by providing tutoring and educational resources.</p>
-                            <p class="text-dark"><i class=" fa fa-check text-primary me-2"></i> Your guidance can open doors to new opportunities and a brighter future.</p>
-                            <p class="text-dark"><i class=" fa fa-check text-primary me-2"></i> Engage with local communities to promote health, education, and well-being. </p>
-                            <p class="text-dark mb-5"><i class=" fa fa-check text-primary me-2"></i> Participate in tree planting, clean-up drives, and awareness campaigns to protect our environment. </p>
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="https://forms.office.com/e/V4GftRwYBF">Join With Us</a>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">SEO Optimization</h4>
+                    <p>Enhancing your website's visibility on search engines to attract more traffic.</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
                 </div>
             </div>
-            <!-- Volunteers End -->
-            <div class="text-center mx-auto pb-5">
-                <img src="img/g1.gif" alt="Description of GIF" width="100" height="100">
-            </div>
-
-            <!-- Footer Start -->
-            <div class="container-fluid footer bg-dark text-body py-5">
-                <div class="container py-5">
-                    <div class="row g-5">
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="footer-item">
-                                <h4 class="mb-4 text-white">Newsletter</h4>
-                                <p class="mb-4">Your involvement as a volunteer can transform lives and create a ripple effect of positive change. Together, we can build a brighter, more compassionate world. Join us and start making a difference today!.​</p>
-                                <div class="position-relative mx-auto">
-                                    <input class="form-control border-0 bg-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn-hover-bg btn btn-primary position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="footer-item d-flex flex-column">
-                                <h4 class="mb-4 text-white">Advanced Technology</h4>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Project Management</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Data Management</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Fundraising Support</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Social Media Promotion</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Training and Development</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Custom Management Systems</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="footer-item d-flex flex-column">
-                                <h4 class="mb-4 text-white">Security Assurance</h4>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>powerful Microsoft tools</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Microsoft Azure</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Dynamics 365</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Microsoft 365 for students</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Microsoft Defender</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i>Microsoft Entra</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="footer-item">
-                                <h4 class="mb-4 text-white">Our Gallery</h4>
-                                <div class="row g-2">
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-1.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-1.jpg" data-lightbox="footerGallery-1" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-2.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-2.jpg" data-lightbox="footerGallery-2" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-3.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-3.jpg" data-lightbox="footerGallery-3" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-4.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-4.jpg" data-lightbox="footerGallery-4" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-5.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-5.jpg" data-lightbox="footerGallery-5" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="footer-gallery">
-                                            <img src="https://mjahmad1.github.io/cwbd/img/gallery-footer-6.jpg" class="img-fluid w-100" alt="">
-                                            <div class="footer-search-icon">
-                                                <a href="img/gallery-footer-6.jpg" data-lightbox="footerGallery-6" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">Technical Support</h4>
+                    <p>Providing ongoing maintenance and support for your web projects.</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
                 </div>
             </div>
-            <!-- Footer End -->
-            <!-- Copyright Start -->
-            <div class="container-fluid copyright py-4">
-                <div class="container">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-md-4 text-center text-md-start mb-md-0">
-                            <span class="text-body"><a href="#"><i class="fas fa-copyright text-light me-2"></i>2024- CrestWave</a>, All right reserved.</span>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <a href="https://www.facebook.com/MdJaforAhmad1989" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/QuranerFariwala" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="https://orcid.org/0009-0008-8560-0756" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-orcid"></i></a>
-                                <a href="https://www.github.con/mjahmad1/" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/jafor-ahmod/" class="btn-hover-color btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 text-center text-md-end text-body">
-                            <p><b>With a Vision for Tomorrow's Leaders"</b> <br>By <a class="border-bottom" href="https://climate.stripe.com/ArsPAE">MJ-AHMAD</a></p>
-                        </div>
-                    </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">E-commerce Solution</h4>
+                    <p>Setting up and managing online stores to help you reach a broader audience.</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-primary border-inner text-center text-white p-5">
+                    <h4 class="text-uppercase mb-3">Microsoft Solutions</h4>
+                    <p>Leveraging my Microsoft Partner status to provide top-notch services and solutions.</p>
+                    <a href="" class="btn btn-dark border-inner py-3 px-5">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-6 text-center">
+                <h1 class="text-uppercase text-light mb-4">30% Discount For This Summer</h1>
+                <a href="" class="btn btn-primary border-inner py-3 px-5">Order Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Testimonial Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+            <h2 class="text-primary font-secondary">With Respect</h2>
+            <h1 class="display-4 text-uppercase">Source of Inspiration</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item bg-dark text-white border-inner p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaaa.jpg" style="width: 60px; height: 60px;">
+                    <div class="ps-3">
+                        <h4 class="text-primary text-uppercase mb-1">David Westlake</h4>
+                        <span>Fri 13-Sep-24 7:47 PM</span>
+                    </div>
+                </div>
+                <p class="mb-0">
+                    You're invited to join ComfortSmithson - a recent contestant on the Great British  Sewing Bee - and Crislyn from IJM's team in South East Asia for an inspiring free webinar!
+                </p>
+            </div>
+            <div class="testimonial-item bg-dark text-white border-inner p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaa.jpg" style="width: 60px; height: 60px;">
+                    <div class="ps-3">
+                        <h4 class="text-primary text-uppercase mb-1">Microsoft Partner</h4>
+                        <span></span>
+                    </div>
+                </div>
+                <p class="mb-0">
+                    You can now access all the benefits of the Microsoft Partner Network, access technical and marketing resources, and more.
+                </p>
+            </div>
+            <div class="testimonial-item bg-dark text-white border-inner p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaaa.jpg" style="width: 60px; height: 60px;">
+                    <div class="ps-3">
+                        <h4 class="text-primary text-uppercase mb-1">Microsoft Partner Center</h4>
+                        <span>Sat 2024-09-07 4:23 AM</span>
+                    </div>
+                </div>
+                <p class="mb-0">
+                    We've successfully verifiedyour profile, and you now have fullaccess to Microsoft Partner Center.
+                </p>
+            </div>
+            <div class="testimonial-item bg-dark text-white border-inner p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid flex-shrink-0" src="https://mjahmad1.github.io/cwbd/img/aaaa.jpg" style="width: 60px; height: 60px;">
+                    <div class="ps-3">
+                        <h4 class="text-primary text-uppercase mb-1">Satya Nadella</h4>
+                        <span>May 28, 2024</span>
+                    </div>
+                </div>
+                <p class="mb-0">
+                    MJ-AHMAD has successfully completed
+                    Get started building apps for Microsoft Teams by using Teams Toolkit for Visual Studio Code
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <p>.</p>
+    <p>.</p>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-center">
+            &copy; 2024 - MJ-AHMAD - All Rights Reserved.
+          <p>  <a href="https://mjahmad1.github.io/cwbd/privacy.html">Privacy</a>
+           - <a href="https://mjahmad1.github.io/cwbd/terms.html">Terms</a>
+           - <a href="https://cwbd-a0gpg4a7hxawhter.eastasia-01.azurewebsites.net/me">Help</a>
+        </div>
+    </footer>
+    <script>
+        function showPricing(type) {
+            const products = document.querySelectorAll('.product');
+            products.forEach(product => {
+                product.textContent = product.getAttribute(`data-${type}`);
+            });
+        }
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/easing/easing.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/waypoints/waypoints.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/counterup/counterup.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template JavaScript -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/l/js/main.js"></script>
 
 
+    <!-- JavaScript Libraries -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/typed/typed.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/easing/easing.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/waypoints/waypoints.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/lib/lightbox/js/lightbox.min.js"></script>
 
+    <!-- Contact JavaScript File -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/mail/jqBootstrapValidation.min.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/mail/contact.js"></script>
 
-            <!-- JavaScript Libraries -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="https://mjahmad1.github.io/cwbd/lib/easing/easing.min.js"></script>
-            <script src="https://mjahmad1.github.io/cwbd/lib/waypoints/waypoints.min.js"></script>
-            <script src="https://mjahmad1.github.io/cwbd/lib/counterup/counterup.min.js"></script>
-            <script src="https://mjahmad1.github.io/cwbd/lib/owlcarousel/owl.carousel.min.js"></script>
-            <script src="htps:/t/mjahmad1.github.io/cwbd/lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Template JavaScript -->
+    <script src="https://mjahmad1.github.io/Reliable-Hand/js/main.js"></script>
+    <script src="https://mjahmad1.github.io/Reliable-Hand/script.js"></script>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+        const professional = document.getElementById("professional");
+        const master = document.getElementById("master");
+        const basic = document.getElementById("basic");
 
-
-            <!-- Template Javascript -->
-            <script src="htps:/t/mjahmad1.github.io/cwbd/js/main.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DFESE050Q0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DFESE050Q0');
-</script>
+        checkbox.addEventListener("click", () => {
+            basic.textContent = basic.textContent === "$199.99" ? "$19.99" : "$199.99";
+            professional.textContent = professional.textContent === "$249.99" ? "$24.99 " : "$249.99";
+            master.textContent = master.textContent === "$399.99" ? "$39.99" : "$399.99";
+        });
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
